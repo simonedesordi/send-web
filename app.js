@@ -28,7 +28,7 @@ app.configure('development', function() {
     app.use(express.errorHandler());
 });
 
-app.use(auth);
+//app.use(auth);
 
 // Render our home page with all blog posts
 app.get('/', function(request, response) {
