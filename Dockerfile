@@ -14,7 +14,7 @@ WORKDIR /app
 # Install app dependencies
 RUN npm install --production
 
-RUN pwd && ls -la /app/
+RUN pwd && ls -la /app/node_modules
 
 EXPOSE 8080
 
